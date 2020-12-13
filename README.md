@@ -6,5 +6,5 @@
 
 > ## Usage
 
-> run `./crun [filename.c/filename.cpp]`. pass the file (name with extention) as arguement
+> run `./crun [filename.c/filename.cpp]` . Pass the file (name with extention) as arguement
 
