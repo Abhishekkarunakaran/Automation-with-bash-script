@@ -1,20 +1,37 @@
 #!/bin/bash
 
 #bash script to compile and run c and c++ programs
-if [[ $1 == *".cpp" ]]
+input=${1}
+
+if test -f "a.out"
+    then
+        rm a.out
+fi
+
+if [[ $input == *".cpp" ]]
 then
-    g++ $1 
+    g++ $input 
     
     #Can also compile a c program with g++ compiler
-    echo "Do you want to run the c++ program(y/n)?"
-
-    read ch
-elif [[ $1 == *".c" ]]
+    if test -f "a.out"
+    then
+        echo "Do you want to run the c++ program(y/n)?"
+        read ch
+    else
+        exit
+    fi
+elif [[ $input == *".c" ]]
 then
-    gcc $1
-    echo "Do you want to run the c program(y/n)?"
+    gcc $input
+    
+    if test -f "a.out"
+    then
+        echo "Do you want to run the c program(y/n)?"
+        read ch
+    else 
+        exit
+    fi
 
-    read ch
 else
     echo "Invalid filename with extention"
     exit
