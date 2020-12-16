@@ -22,6 +22,7 @@ then
     if test -f "a.out"
     then
         echo "Compilation Sucessfull"
+        ./a.out
     else
         exit
     fi
@@ -32,18 +33,12 @@ then
     if test -f "a.out"
     then
         echo "Compilation Sucessfull"
+        ./a.out
     else 
         exit
     fi
 
 else
     echo "Invalid filename with extention"
-    exit
-fi
-
-if [ $ch == 'y' ] || [ $ch == 'Y' ]
-then
-    ./a.out
-else
     exit
 fi
