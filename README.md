@@ -6,9 +6,9 @@
 
 > ## Usage
 > put the `crun.sh` in the directory where the c and c++ programs are located.
-> * To access Permission
-> run `chmod +x crun.sh`
-> run `./crun.sh filename.c` or `./crun.sh filename.cpp`  
+> * To access Permission:
+>  run `chmod +x crun.sh` then
+>  run `./crun.sh filename.c` or `./crun.sh filename.cpp`  
 >> Pass the file (name with extention) as arguement
 
 > ## Windows
