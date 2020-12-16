@@ -21,7 +21,6 @@ then
     #Can also compile a c program with g++ compiler
     if test -f "a.out"
     then
-        echo "Compilation Sucessfull"
         ./a.out
     else
         exit
@@ -32,7 +31,6 @@ then
     
     if test -f "a.out"
     then
-        echo "Compilation Sucessfull"
         ./a.out
     else 
         exit
