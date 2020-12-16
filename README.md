@@ -11,8 +11,12 @@
 > run `./crun.sh filename.c/filename.cpp`  //Pass the file (name with extention) as arguement
 
 > If you are on Windows subsystem for Linux (wsl)->
+
 > Use `dos2unix` package to resolve the error: `'\r': command not found`
+
 >> Follow the steps,
->> `sudo apt install dos2unix` \\ not necessary if it is pre-installed 
->> `dos2unix crun.sh` \\ after this try to run the script
+
+>> `sudo apt install dos2unix` // not necessary if it is pre-installed
+
+>> `dos2unix crun.sh` // after this try to run the script
 
