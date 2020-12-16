@@ -21,8 +21,7 @@ then
     #Can also compile a c program with g++ compiler
     if test -f "a.out"
     then
-        echo "Do you want to run the c++ program(y/n)?"
-        read ch
+        echo "Compilation Sucessfull"
     else
         exit
     fi
@@ -32,8 +31,7 @@ then
     
     if test -f "a.out"
     then
-        echo "Do you want to run the c program(y/n)?"
-        read ch
+        echo "Compilation Sucessfull"
     else 
         exit
     fi
