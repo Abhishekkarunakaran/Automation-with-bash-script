@@ -1,6 +1,12 @@
 #!/bin/bash
 
 #bash script to compile and run c and c++ programs
+if [ -z "$1" ]
+then 
+    echo "Pass a c or c++ program as arguement"
+    exit
+fi
+
 input=${1}
 
 if test -f "a.out"
