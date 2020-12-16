@@ -1,5 +1,7 @@
 # Automation with Bash Script
 
+Add the `crun.sh` file into your desired directory and get your code compiled automatically just by running one command.
+
 > ## Prerequisite
 > * g++ and gcc should be pre-installed
 > * run this script in the linux terminal
