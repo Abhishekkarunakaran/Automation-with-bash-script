@@ -4,7 +4,7 @@ Clone and the `crun.sh` file into your desired directory to get your code compil
 
 ## Prerequisite
 > * g++ and gcc should be pre-installed for compiling c and c++ programs
-> * javac should be pre-installed for the sucessfull compilation of java programs
+> * javac should be pre-installed for the sucessful compilation of java programs
 
 ## How it Works?
 > add the `crun.sh` in the directory where the c, c++, or java programs are located.
