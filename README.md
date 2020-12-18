@@ -1,16 +1,16 @@
-# Automation with Bash Script
+# Automation with Bash Script :sunglasses:
 
-Add the `crun.sh` file into your desired directory and get your code compiled automatically just by running one command.
+Clone and the `crun.sh` file into your desired directory to get your code compiled automatically just by running one command :heart_eyes::heart_eyes:
 
 > ## Prerequisite
-> * g++ and gcc should be pre-installed
-> * run this script in the linux terminal
+> * g++ and gcc should be pre-installed for compiling c and c++ programs
+> * javac should be pre-installed for the sucessfull compilation of java programs
 
-> ## Usage
-> put the `crun.sh` in the directory where the c and c++ programs are located.
-> * To access Permission:
->  run `chmod +x crun.sh` then
->  run `./crun.sh filename.c` or `./crun.sh filename.cpp`  
+> ## How it Works?
+> add the `crun.sh` in the directory where the c, c++, or java programs are located.
+> * To access Permission: <br/> 
+>  1. run `chmod +x crun.sh` <br/> 
+>  2. run `./crun.sh filename.c` or `./crun.sh filename.cpp`  or `./crun.sh filename.java` <br/>
 >> Pass the file (name with extention) as arguement
 
 > ## Windows
@@ -21,3 +21,4 @@ Add the `crun.sh` file into your desired directory and get your code compiled au
 >> not necessary if it is pre-installed
 > * `dos2unix crun.sh` 
 >> after this try to run the script
+ 
