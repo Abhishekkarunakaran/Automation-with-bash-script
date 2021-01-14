@@ -21,3 +21,8 @@ Add the `crun.sh` file into your desired directory and get your code compiled au
 >> not necessary if it is pre-installed
 > * `dos2unix crun.sh` 
 >> after this try to run the script
+
+> ## To make it short
+> use `alias` after cloning the repo.
+> `alias crun="./crun.sh"`
+>> you can use any alias you want
